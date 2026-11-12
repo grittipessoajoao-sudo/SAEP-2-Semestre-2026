@@ -1,0 +1,14 @@
+{
+  "name": "clinica-veterinaria",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema local de gestão para clínica veterinária",
+  "scripts": {
+    "setup": "node setup.js",
+    "start": "node --env-file=.env server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.9"
+  }
+}
